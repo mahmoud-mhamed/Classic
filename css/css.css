@@ -1,0 +1,168 @@
+body{
+    background: #6f42c1;
+    height: 2000px;
+}
+/*              start header        */
+/*start navbar*/
+header nav li{
+    margin-right: 15px;
+}
+header nav .navbar-brand{
+    font-size: xx-large!important;
+}
+header nav li a,header .navbar-brand{
+    color: white!important;
+    transition: all .1s ease-in-out;
+}
+header nav li.active a,header nav li:hover a{
+color: #1ABC9C!important;
+border-bottom: 3px #1ABC9C solid;
+}
+header nav li a{
+    padding: 0!important;
+}
+header{
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)), url("../img/header2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+header>div h1{
+    font-size: 4em;
+    margin-top: -80px;
+}
+header>div h1 span{
+    color: #1ABC9C;
+}
+header button{
+    border-color:#ccc !important;
+}
+header button span.navbar-toggler-icon{
+
+    background:url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+/*end header        */
+/*              start services    */
+section.services{
+    padding: 40px 0;
+    background: white;
+}
+section.services i{
+    color: #1ABC9C;
+    text-align: center;
+}
+section.services .container p{
+    color: #888;
+}
+section.services h3{
+    color: #585353;
+}
+section.services h2{
+    padding-bottom: 30px;
+}
+section.services h2 span{
+    padding-bottom: 8px;
+    border-bottom: 3px black solid;
+}
+/*end services    */
+/*              start testimonials           */
+.testimonials{
+    padding: 40px 0;
+    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url("../img/keyboard.jpg") fixed;
+    background-size: cover;
+}
+.testimonials p{
+    color: #aaa;
+    font-size: large;
+}
+.testimonials h3{
+    color: #1ABC9C;
+}
+.testimonials .container div:nth-child(2){
+    display: none;
+}
+
+/*end testimonials   */
+/*              start projects*/
+.projects{
+    padding: 40px 0 20px 0;
+    background: white;
+}
+.projects button{
+    border: 2px #CCC solid;
+    color: #aaa;
+    font-size: large;
+}
+.projects button.active{
+    background: #1ABC9C;
+    border-color: #1ABC9C;
+    color: white;
+}
+.projects div.overlay{
+    top: 0;
+    display: none;
+    color: white;
+    background: rgba(26, 188, 156, .9);;
+}
+.projects div.overlay h1{
+    top: 36%;
+    width: 100%;
+    text-align: center;
+}
+.projects div.overlay span{
+    bottom: 5px;
+    right: 10px;
+}
+
+.projects .row>div:hover .overlay{
+    display: block;
+}
+.projects img,.projects .overlay{
+    border: 1px white solid;
+    outline: 1px #aaa solid;
+}
+/*end projects*/
+
+/*              start footer    */
+footer{
+    padding: 40px 0;
+    background: #232323;
+    color: #6C6C6C;
+}
+footer h3{
+    color: white;
+}
+footer ul li{
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #6C6C6C;
+    outline: 1px solid black;
+    margin: 10px 10px 0 0;
+
+}
+footer a{
+    text-decoration: none;
+    color: inherit;
+}
+footer a:hover{
+    text-decoration: none;
+}
+footer h6{
+    padding-left: 8px;
+    padding-bottom: 10px;
+    border-bottom: 3px #6C6C6C solid;
+}
+/*end footer*/
+
+.goToTop{
+    bottom: 10px;
+    left: 10px;
+    display: none;
+}
+.goToTop button{
+    color: white;
+    background: rgba(26, 188, 156, 0.6);
+}
+.goToTop button:hover{
+    background: rgba(26, 188, 156, 1);
+}
